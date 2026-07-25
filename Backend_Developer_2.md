@@ -1,29 +1,25 @@
-# Backend Developer 2 – Payments, Transactions & Loans
+
+# Backend Developer 2
+
+## Modules
+Payments, Stripe, QR, Transactions, Loans
 
 ## Responsibilities
-- Stripe Integration
-- QR Payments
-- Money Transfer
-- Request Money
-- Transaction History
+- Stripe integration
+- QR payment APIs
+- Send/Receive money
+- Request money
 - Loan APIs
-
-## Deliverables
-- Secure payment APIs
-- Transaction history
-- Loan workflow APIs
-- EMI schedule generation
+- EMI schedule
 - PDF/CSV exports
 
-## Prompt
-Develop secure payment and loan modules.
+## APIs
+POST /payments/add-money
+POST /payments/send
+POST /payments/request
+GET /transactions
+POST /loan/apply
+PATCH /loan/status
 
-Requirements:
-- Integrate Stripe for wallet top-up.
-- Implement QR payment APIs.
-- Implement send/request money.
-- Maintain transaction ledger.
-- Support filters and exports.
-- Build loan application, approval, repayment, and EMI schedule APIs.
-- Ensure ACID-safe money transfers.
-- Follow clean architecture and write tests.
+## Prompt
+Develop ACID-safe financial transactions, Stripe integration, QR payment services, ledger management, loan workflow, validation, tests, and documentation.
