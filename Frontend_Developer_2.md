@@ -1,24 +1,65 @@
-# Frontend Developer 2 – Payments & Merchant Experience
 
-## Responsibilities
-- QR Payments
+# Frontend Developer 2
+
+## Modules
+QR Payments, Transactions, Merchant Dashboard, Expense Split
+
+# FlowFi Global Design System
+
+## Theme
+- Style: Stripe + Revolut + CRED + Linear
+- Default: Dark Mode
+- UI: Glassmorphism with clean cards
+
+## Colors
+Primary        #10B981  (Emerald)
+Secondary      #34D399  (Mint)
+Accent         #FBBF24  (Gold)
+AI             #A855F7  (Purple)
+Success        #22C55E
+Warning        #F97316
+Error          #DC2626
+Background     #0D1117
+Card           #1A1F2E
+Border         #2D3748
+Text           #F9FAFB
+Secondary Text #A1A1AA
+
+## Typography
+- Inter
+- Plus Jakarta Sans
+
+## Stack
+React + TypeScript
+TailwindCSS
+shadcn/ui
+Framer Motion
+Lucide React
+React Query
+React Hook Form + Zod
+Socket.io Client
+Recharts
+
+## UI Rules
+- 20px card radius
+- Glass cards
+- Responsive first
+- Accessible forms
+- Skeleton loaders
+- Toast notifications
+
+
+## Pages
+- QR Payment
 - Transactions
 - Merchant Dashboard
-- Group Expense Split
-- Charts
+- Group Split
 
-## Deliverables
-- QR payment UI
-- Transaction explorer
-- Merchant analytics
+## Components
+QR Scanner
+Transaction Table
+Charts
+Merchant Cards
 
 ## Prompt
-Build the payments experience.
-
-Requirements:
-- QR generation and scanner UI.
-- Transaction filtering.
-- Merchant dashboard.
-- Group expense split workflow.
-- Modern charts and responsive layouts.
-- Error handling and loading states.
+Implement responsive payment interfaces with filters, charts, QR scanner UI, merchant analytics, loading states and reusable components.
